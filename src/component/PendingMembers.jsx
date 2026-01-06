@@ -72,7 +72,7 @@ const PendingMembers = () => {
     toast.success(`Member ${status}`);
 
     if (status === "approved") {
-      navigate("/aadmin/approved");
+      navigate("/admin/approved");
     } else {
       fetchPending();
     }
